@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'I changed this bit'
-                echo 'NEW'
+                echo 'this is from a new branch and also cool'
                 echo 'Building..'
             }
         }
