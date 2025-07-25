@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                echo 'I added this bit'
                 echo 'Building..'
             }
         }
