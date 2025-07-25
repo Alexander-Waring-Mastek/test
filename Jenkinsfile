@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/priyabuss2004/java-rest-demo.git'
+               git branch: 'main', url: 'https://github.com/Alexander-Waring-Mastek/test.git'
             }
         }
 
