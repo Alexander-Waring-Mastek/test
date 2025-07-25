@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'I changed this bit'
+                echo 'NEW'
                 echo 'Building..'
             }
         }
