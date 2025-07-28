@@ -11,7 +11,7 @@ pipeline {
 
                 echo 'I changed this bit again :)'
                 echo 'this is from a new branch and also cool'
-                echo 'Building..'
+                echo 'Building...........'
             }
         }
         stage('Test') {
